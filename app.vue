@@ -1,5 +1,16 @@
+<script setup lang="ts">
+import { useOblivioStore } from '~/stores/oblivioStore'
+
+const oblivioStore = useOblivioStore()
+
+oblivioStore.initialize()
+</script>
+
 <template>
-  <div>
+  <div class="m-4">
     <NuxtPage />
   </div>
 </template>
+
+<style>
+</style>

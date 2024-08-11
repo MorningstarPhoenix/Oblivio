@@ -1,7 +1,7 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,12 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/icon": "^1.4.5",
+    "@pinia/nuxt": "^0.5.3",
     "@radix-icons/vue": "^1.0.0",
     "@vueuse/core": "^10.11.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.367.0",
     "nuxt": "^3.12.4",
+    "pinia": "^2.2.1",
     "radix-vue": "^1.9.3",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
